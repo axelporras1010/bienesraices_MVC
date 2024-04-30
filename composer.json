@@ -1,0 +1,20 @@
+{
+    "name": "axelo/bienesraices_inicio",
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controller\\": "./controllers"
+        }
+    },
+    "authors": [
+        {
+            "name": "Axel Porras",
+            "email": "axelporrasg@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^3.0",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
